@@ -4,7 +4,7 @@ const MainArtileHome = ({ hero }) => {
   return (
     <>
       <img
-        src={hero.img}
+        src={window.innerWidth < 500 ? `${hero.imgMobile}` : `${hero.img}`}
         alt={hero.title}
         className="object-cover col-start-1 col-end-4 row-start-1 row-end-3 lg:col-start-1 lg:col-end-5 lg:row-start-1 lg:row-end-3 w-full h-full"
       />

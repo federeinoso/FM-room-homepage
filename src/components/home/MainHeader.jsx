@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MainArticle from "../home/MainArticle";
 
 import IconPrev from "../icons/iconPrev";
@@ -7,6 +7,9 @@ import IconNext from "../icons/iconNext";
 import ImagHero1 from "../../assets/images/desktop-image-hero-1.jpg";
 import ImagHero2 from "../../assets/images/desktop-image-hero-2.jpg";
 import ImagHero3 from "../../assets/images/desktop-image-hero-3.jpg";
+import ImagMobile1 from "../../assets/images/mobile-image-hero-1.jpg";
+import ImagMobile2 from "../../assets/images/mobile-image-hero-2.jpg";
+import ImagMobile3 from "../../assets/images/mobile-image-hero-3.jpg";
 
 const ARTICLES_HERO = [
   {
@@ -14,6 +17,7 @@ const ARTICLES_HERO = [
     description:
       "We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.",
     img: ImagHero1,
+    imgMobile: ImagMobile1,
     id: 1,
   },
   {
@@ -21,6 +25,7 @@ const ARTICLES_HERO = [
     description:
       "With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.",
     img: ImagHero2,
+    imgMobile: ImagMobile2,
     id: 2,
   },
   {
@@ -28,6 +33,7 @@ const ARTICLES_HERO = [
     description:
       "Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.",
     img: ImagHero3,
+    imgMobile: ImagMobile3,
     id: 2,
   },
 ];
