@@ -1,8 +1,8 @@
 import { useState } from "react";
 import MainArticle from "../home/MainArticle";
 
-import IconPrev from "../icons/IconPrev";
-import IconNext from "../icons/IconNext";
+import IconPrev from "../icons/iconPrev";
+import IconNext from "../icons/iconNext";
 
 import ImagHero1 from "../../assets/images/desktop-image-hero-1.jpg";
 import ImagHero2 from "../../assets/images/desktop-image-hero-2.jpg";
