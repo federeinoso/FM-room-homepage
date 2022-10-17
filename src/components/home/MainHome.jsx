@@ -7,7 +7,7 @@ const MainHome = () => {
       <img
         src={ImgAbout1}
         alt=""
-        className="object-cover lg:col-span-2 w-full h-full"
+        className="object-cover lg:col-span-2 w-full h-fit"
       />
       <section className="px-7 py-10 lg:col-span-3 grid place-content-center lg:px-20">
         <h2 className="uppercase font-bold tracking-[0.5rem] text-sm mb-3">

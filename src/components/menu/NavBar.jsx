@@ -24,13 +24,13 @@ const Navbar = () => {
         {activeMenu ? <IconCloseMenu /> : <IconMenu />}
       </button>
       <IconLogo
-        className={activeMenu ? "hidden" : "mx-auto cursor-pointer sm:mx-0"}
+        className={activeMenu ? "hidden" : "mx-auto cursor-pointer sm:mx-4"}
       />
       <div
         className={
           activeMenu
             ? "flex gap-10 font-bold text-black mx-auto"
-            : "hidden sm:flex sm:gap-10"
+            : "hidden sm:flex"
         }
       >
         <NavLink name="home" />
