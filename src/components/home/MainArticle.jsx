@@ -6,9 +6,9 @@ const MainArtileHome = ({ hero }) => {
       <img
         src={window.innerWidth < 500 ? `${hero.imgMobile}` : `${hero.img}`}
         alt={hero.title}
-        className="object-cover col-start-1 col-end-4 row-start-1 row-end-3 lg:col-start-1 lg:col-end-5  lg:row-start-1 lg:row-end-4 w-full h-[70vh]"
+        className="object-cover col-start-1 col-end-4 row-start-1 row-end-3 lg:col-start-1 lg:col-end-5  lg:row-start-1 lg:row-end-4 w-full h-full lg:h-[70vh]"
       />
-      <article className="py-10 px-7 col-start-1 col-end-4 lg:col-start-5 lg:col-end-8 lg:row-start-1 lg:row-end-2 lg:px-20 flex flex-col justify-center h-[60vh]">
+      <article className="py-10 px-7 col-start-1 col-end-4 lg:col-start-5 lg:col-end-8 lg:row-start-1 lg:row-end-2 lg:px-20 flex flex-col justify-center lg:h-[60vh]">
         <h1 className="font-medium text-3xl lg:text-5xl mb-4">{hero.title}</h1>
         <p className="text-gray-400 mb-6 text-sm">{hero.description}</p>
         <button className="flex items-center hover:text-gray-500 fill-black hover:fill-gray-500 ">
