@@ -14,7 +14,7 @@ const Navbar = () => {
       className={
         activeMenu
           ? "absolute bg-white w-full p-10 flex items-center"
-          : "absolute w-full text-white flex flex-row sm:gap-14 max-w-fit items-center top-10 sm:left-14"
+          : "absolute w-full sm:max-w-[80%] text-white flex flex-row sm:gap-14 items-center top-10 sm:left-14"
       }
     >
       <button
