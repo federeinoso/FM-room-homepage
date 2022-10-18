@@ -3,7 +3,7 @@ import ImgAbout2 from "../../assets/images/image-about-light.jpg";
 
 const MainHome = () => {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-7">
+    <main className="grid grid-cols-1 lg:grid-cols-7 h-full">
       <img
         src={ImgAbout1}
         alt=""
