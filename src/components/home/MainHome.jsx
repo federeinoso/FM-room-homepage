@@ -3,11 +3,11 @@ import ImgAbout2 from "../../assets/images/image-about-light.jpg";
 
 const MainHome = () => {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-7">
+    <main className="grid grid-cols-1 lg:grid-cols-7 h-[30vh]">
       <img
         src={ImgAbout1}
         alt=""
-        className="object-cover lg:col-span-2 h-full w-full"
+        className="object-cover lg:col-span-2 w-full h-full"
       />
       <section className="px-7 py-10 lg:col-span-3 flex flex-col place-content-center lg:px-20">
         <h2 className="uppercase font-bold tracking-[0.5rem] text-sm mb-3">
